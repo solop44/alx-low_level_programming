@@ -10,7 +10,7 @@ int j = 92;
 int i = 0;
 while (i < 10)
 {
-putchar('0' + hex[i]);
+putchar('0' + i);
 i++;
 }
 while (j < 103)
