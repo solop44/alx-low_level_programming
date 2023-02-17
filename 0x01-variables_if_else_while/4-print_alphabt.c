@@ -13,7 +13,10 @@ if ((char)i == 'e' || (char)i == 'q')
 {
 continue;
 }
+else
+{
 putchar(i + 97);
+}
 i++;
 }
 putchar('\n');
