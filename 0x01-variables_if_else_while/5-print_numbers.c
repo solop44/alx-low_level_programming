@@ -16,7 +16,7 @@ i++;
 while (j < 26)
 {
 putchar(j + 65);
-j++;
+i++;
 }
 putchar('\n');
 return (0);
