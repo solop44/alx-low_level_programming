@@ -6,6 +6,7 @@
 */
 int main(void)
 {
+int alpha;
 int i = 0;
 while (i < 26)
 {
@@ -16,6 +17,7 @@ continue;
 }
 putchar(alpha);
 i++;
+}
 putchar('\n');
 return (0);
 }
