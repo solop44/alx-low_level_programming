@@ -12,5 +12,6 @@ while (i < 26)
 putchar(i + 97);
 i++;
 }
+putchar("\n");
 return (0);
 }
