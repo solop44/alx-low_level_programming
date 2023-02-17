@@ -7,15 +7,9 @@
 int main(void)
 {
 int i = 0;
-int j = 0;
-while (i < 26)
+while (i < 10)
 {
-putchar(i + 97);
-i++;
-}
-while (j < 26)
-{
-putchar(j + 65);
+printf("%i", i);
 i++;
 }
 putchar('\n');
