@@ -7,14 +7,15 @@
 int main(void)
 {
 int i = 0;
+int j = 0;
 while (i < 26)
 {
 putchar(i + 97);
 i++;
 }
-while (i < 26)
+while (j < 26)
 {
-putchar(i + 65);
+putchar(j + 65);
 i++;
 }
 putchar('\n');
