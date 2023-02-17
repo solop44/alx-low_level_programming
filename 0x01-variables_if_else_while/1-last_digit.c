@@ -12,10 +12,11 @@ int main(void)
 {
 int n;
 char *str;
+int digit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int digit = n % 10;
 /* your code goes there */
+digit = n % 10;
 if (digit > 5)
 {
 str = "greater than 5";
