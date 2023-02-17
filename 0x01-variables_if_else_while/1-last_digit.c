@@ -14,7 +14,8 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-int digit = n % 10;
+int digit;
+digit = n % 10;
 char *str;
 if (digit > 5)
 {
