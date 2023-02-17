@@ -9,16 +9,13 @@ int main(void)
 int i = 0;
 while (i < 26)
 {
-if ((char)i == 'e' || (char)i == 'q')
+alpha = i + 97;
+if ((char)alpha == 'e' || (char)alpha == 'q')
 {
 continue;
 }
-else
-{
-putchar(i + 97);
-}
+putchar(alpha);
 i++;
-}
 putchar('\n');
 return (0);
 }
