@@ -12,9 +12,9 @@ int main(void)
 {
 int n;
 char *str;
-int digit = n % 10;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+int digit = n % 10;
 /* your code goes there */
 if (digit > 5)
 {
