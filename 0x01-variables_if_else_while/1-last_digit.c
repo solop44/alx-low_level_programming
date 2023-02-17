@@ -30,5 +30,5 @@ else
 str = "less than 6 and not 0";
 }
 printf("Last digit of %d is %i and is %s\n", n, digit, str);
-return(0);
+return (0);
 }
