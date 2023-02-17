@@ -16,6 +16,7 @@ i++;
 while (j < 103)
 {
 putchar((char) j);
+j++;
 }
 putchar('\n');
 return (0);
