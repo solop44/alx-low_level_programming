@@ -13,6 +13,7 @@ while (i < 26)
 alpha = i + 97;
 if ((char)alpha == 'e' || (char)alpha == 'q')
 {
+i++;	
 continue;
 }
 putchar(alpha);
