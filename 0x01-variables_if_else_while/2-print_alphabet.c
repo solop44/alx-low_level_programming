@@ -6,9 +6,11 @@
 */
 int main(void)
 {
-for (int i = 97; i < 26; i++)
+int i = 0;
+while (i < 26)
 {
-putchar(i);
+putchar(i + 97);
+i++;
 }
 return (0);
 }
