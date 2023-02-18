@@ -26,5 +26,6 @@ for (i = 0; i <= 99; i++)
 		}
 	}
 }
+putchar('\n');
 return (0);
 }
