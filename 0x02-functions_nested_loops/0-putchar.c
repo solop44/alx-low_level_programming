@@ -1,4 +1,5 @@
 #include <main.h>
+#include <stdio.h>
 /**
  * main - The function prints a string
  * Return: Returns a value of "0"
