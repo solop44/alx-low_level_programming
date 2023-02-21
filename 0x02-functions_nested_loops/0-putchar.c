@@ -1,12 +1,32 @@
-#include <main.h>
 #include <stdio.h>
-/**
- * main - The function prints a string
- * Return: Returns a value of "0"
-*/
+#include "main.h"
 
+/**
+ * main - the program entry point
+ * Description: This function prints a string
+ * Return: the function retuens zero
+ */
 int main(void)
 {
-	printf("%s\n", "_puchar");
+	char str[] = "_putchar\n";
+	int i = 0;
+	
+	while (i < 9)
+	{
+		_putchar(str[i++]);
+	}
+
 	return (0);
+}
+
+
+
+/**
+ * _putchar - the program entry point
+ * Description: This function prints a character
+ * Return:No return value
+ */
+void _putchar(char c)
+{
+	putchar(c);
 }
