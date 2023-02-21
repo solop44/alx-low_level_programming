@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * main - This function prints a string
+ * main - the program entry point
+ * Description: This function prints a string
  * Return: the function retuens zero
  */
 int main(void)
@@ -21,7 +22,8 @@ int main(void)
 
 
 /**
- * _putchar - This function prints a character
+ * _putchar - the program entry point
+ * Description: This function prints a character
  * Return:No return value
  */
 void _putchar(char c)
