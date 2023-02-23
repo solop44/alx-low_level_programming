@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-void main(void)
+/**
+ * main - Print numbers 1 - 100 with some tweaks
+ * Return: 0
+*/
+
+int main(void)
 {
 	int i;
 
@@ -11,7 +16,7 @@ void main(void)
 		{
 			printf("FizzBuzz");
 		}
-	        else if (i % 3 == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz");
 		}
@@ -27,4 +32,5 @@ void main(void)
 		i++;
 	}
 	putchar('\n');
+	return (0);
 }
