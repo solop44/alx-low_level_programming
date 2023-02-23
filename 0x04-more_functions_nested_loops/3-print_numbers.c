@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_numbers - prints numbers 0 - 9
- */
+ *  * print_numbers - prints numbers 0 - 9
+ *   */
 
 void print_numbers(void)
 {
