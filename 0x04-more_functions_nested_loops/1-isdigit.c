@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _isupper - Checks if characters is uppercase
+ * _isdigit - Checks if characters is uppercase
  * @c: character
  * Return: If true 1 else 0
  */
