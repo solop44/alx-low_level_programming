@@ -5,6 +5,7 @@
 /**
  * print_diagonal - prints a diagonal line
  * @n: length of diagonal
+ * Return: Void.
  */
 
 void print_diagonal(int n)
