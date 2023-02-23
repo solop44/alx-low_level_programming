@@ -1,11 +1,6 @@
-#include "main.h"
 #include <stdio.h>
 
-/**
- * print_numbers - prints numbers 0 - 9
-*/
-
-void print_numbers(void)
+void main(void)
 {
 	int i;
 
@@ -20,13 +15,13 @@ void print_numbers(void)
 		{
 			printf("Buzz");
 		}
-		else if (i % 3 == 0  && i % 5 == 0)
+		else if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
 		else
 		{
-		printf("%d", i);
+			printf("%d", i);
 		}
 		putchar(' ');
 		i++;
