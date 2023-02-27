@@ -6,9 +6,14 @@
  * print_rev - Prints a reversed string
  * @s: string
  * Return: Void
-*/
+ */
 void print_rev(char *s)
 {
-	s = strrev(s);
-	puts(s);
+	int i;
+	int length = strlen(s);
+
+	for (i = (length - 1); i >= 0; i--)
+	{
+		putchar(str[i]);
+	}
 }
