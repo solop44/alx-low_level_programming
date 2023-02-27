@@ -12,12 +12,22 @@ int _atoi(char *s)
 {
 	if (atoi(s) == 0)
 	{
-		char *token = strtok(s, " ");
+		int sign = 1, i = 0;
+		unsigned int res = 0;
 
-		while (token != NULL)
+		while (!(s[i] <= '9' && s[i] >= '0') && s[i] != '\0')
 		{
-			_atoi(token);
+			if (s[i] == '-')
+				sign *= -1;
+			i++;
 		}
+		while (s[i] <= '9' && (s[i] >= '0' && s[i] != '\0'))
+		{
+			res = (res * 10) + (s[i] - '0');
+			i++;
+		}
+		res *= sign;
+		return (res);
 	}
 	return (atoi(s));
 }
