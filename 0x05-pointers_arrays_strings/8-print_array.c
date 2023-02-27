@@ -12,14 +12,19 @@ void print_array(int *a, int n)
 {
 	int i;
 
+	if (n < 1 || n < strlen)
+	{
+		printf(" ");
+	}
+
 	for (i = 0; i < n; i++)
 	{
-		_putchar(a[i]);
-		if ( i == n - 1)
+		printf("%i", a[i]);
+		if (i == n - 1)
 		{
 			break;
 		}
-		_putchar(',');
-		_putchar(' ');
+		puts(',');
+		puts(' ');
 	}
 }
