@@ -12,7 +12,7 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	if (n < 1 || n < sizeof(a))
+	if (n < 1)
 	{
 		printf(" ");
 	}
