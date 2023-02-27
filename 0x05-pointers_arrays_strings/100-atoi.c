@@ -9,10 +9,5 @@
  */
 int _atoi(char *s)
 {
-
-	if (s[0] == "-")
-	{
-		return (atoi(s) * -1);
-	}
 	return (atoi(s));
 }
