@@ -12,7 +12,7 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	if (n < 1 || n < strlen)
+	if (n < 1 || n < strlen(a))
 	{
 		printf(" ");
 	}
@@ -24,7 +24,7 @@ void print_array(int *a, int n)
 		{
 			break;
 		}
-		puts(',');
-		puts(' ');
+		printf(",");
+		printf(" ");
 	}
 }
