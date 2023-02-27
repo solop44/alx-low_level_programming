@@ -9,9 +9,7 @@
  */
 void puts_half(char *str)
 {
-	int i;
-	int half = length / 2;
-	int length = strlen(str);
+	int i, length = strlen(str), half = length / 2;
 
 	if (length % 2 != 0)
 	{
