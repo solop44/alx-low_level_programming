@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -6,7 +6,7 @@
  * _strcat - concatenates two strings
  *
  * @dest: destination string
- * @src: second part of string 
+ * @src: second part of string
  *
  * Return: String
 */
