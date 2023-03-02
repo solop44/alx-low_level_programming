@@ -13,19 +13,26 @@
 char *rot13(char *n)
 {
 	int length = strlen(n);
-	int value;
-	int char_val;
+	int value, ascii_val, i;
 
-	for (int i = 0; i < length; i++)
+	for (i = 0; i < length; i++)
 	{
-		if (!(isalpha(text[i])))
+		ascii_val = n[i];
+		if (!isalpha(n[i]))
 		{
 			continue;
 		}
+		else if (isupper(ascii_val))
+		{
+			value = n[i] - 65;
+			n[i] = (value + 13) % 26 + 65;
+		}
+		else
+		{
+			value = n[i] - 97;
+			n[i] = (value + 13) % 26 + 97;
+		}
 
-		char_val = n[i]
-		value = isupper(n[i]) ? 65 : 97;
-		n[i] = (char)add_key % 26 + value;
 	}
 	return (n);
 }
