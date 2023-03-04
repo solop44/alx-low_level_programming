@@ -1,5 +1,1 @@
-# ALX SE
-
-## Systems Engineering / Devops Basics
-
-### C Basics - Hello World
+0x02. C - Functions, nested loops
