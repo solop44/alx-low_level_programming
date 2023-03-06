@@ -1,17 +1,18 @@
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
-  * main - A function that prints the letters of the alphabet
-  * Return: Returns an integer value => "0"
-*/
+ * main - Prints the alphabet in lowercase.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-int i = 0;
-while (i < 26)
-{
-putchar(i + 97);
-i++;
-}
-putchar('\n');
-return (0);
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
 }

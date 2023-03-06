@@ -1,8 +1,9 @@
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
-  * main - A function that prints the letters of the alphabet
-  * Return: Returns an integer value => "0"
+  * main - Prints numbers between 0 to 9 and letters from a to f.
+  *
+  * Return: Always 0 (success)
 */
 int main(void)
 {

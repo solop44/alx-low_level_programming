@@ -1,8 +1,8 @@
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
-  * main - A function that prints the letters of the alphabet
-  * Return: Returns an integer value => "0"
+  * main - Prints all possible combinations of single-digit numbers.
+  * Return: Always 0 (success)
 */
 int main(void)
 {

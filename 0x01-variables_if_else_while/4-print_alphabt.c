@@ -1,24 +1,21 @@
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
-  * main - A function that prints the letters of the alphabet
-  * Return: Returns an integer value => "0"
-*/
+ * main - Prints the alphabet in lowercase, except for q and e.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-int alpha;
-int i = 0;
-while (i < 26)
-{
-alpha = i + 97;
-if ((char)alpha == 'e' || (char)alpha == 'q')
-{
-i++;
-continue;
-}
-putchar(alpha);
-i++;
-}
-putchar('\n');
-return (0);
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
